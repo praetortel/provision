@@ -4,5 +4,6 @@
     "service": "app",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
-    "forwardPorts": [80]
+    "forwardPorts": [80],
+    "remoteUser": "vscode"
 }
