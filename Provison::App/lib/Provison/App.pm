@@ -7,4 +7,7 @@ get '/' => sub {
     template 'index' => { 'title' => 'Provison::App' };
 };
 
+get '/foo' => sub {
+    return 'Hello :)';
+};
 true;
