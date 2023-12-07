@@ -4,6 +4,11 @@
     "service": "app",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
+    "mounts": [
+        "source=/home/wfisher/Projects,target=/workspaces,type=bind,consistency=cached"
+      ],
+
     "forwardPorts": [80],
-    "remoteUser": "vscode"
+    "remoteUser": "vscode",
+    "containerUser": "vscode"
 }
